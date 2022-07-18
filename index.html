@@ -73,7 +73,7 @@
             </p>
             <button type="button" class="btn btn-primary btn-lg">Read more</button>
           </div>
-          <div class="col-12 col-md-6 col-lg-8 mx-auto d-block hero-img mx-auto">
+          <div class="col-12 col-md-6 col-lg-8 hero-img mx-auto">
             <img class='img-fluid rounded-lg'src="./images/hero.webp" alt="">
           </div>
         </div>
@@ -84,12 +84,12 @@
     <div class="row">
       <div class="col-12 col-md-9 border-right">
         <div class="row pb-12">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 ">
             <div class="row article-item">
               <div class="col-3">
                 <img class=" rounded" src="./images/article1.webp" alt="">
               </div>
-              <div class="col-9">
+              <div class="col-9 ">
                 <p>High interest in outdoor getaways drives earning opportunity for Hosts</p>
                 <span>July 13, 2022</span>
               </div>
@@ -146,13 +146,13 @@
 </div>
 
 <div class="container-fluid future">
-  <div class="row">
+  <div class="row" id="future-textwrapper">
     <div class="col-12 col-md-6 future-text">
       <h3>The future of travel</h3>
-      <p>The ways people travel, work and live are blurring. From product innovations, to Live Anywhere program updates, to the latest travel trends, discover how the future of travel is being shaped by Airbnb.</p>
+      <p>The ways people travel, work and live are blurring. From product innovations, to the latest travel trends, discover how the future of travel is being shaped by Airbnb</p>
     </div>
   </div>
-  <div class="row overflow-auto article-container">
+  <div class="row overflow-auto article-container flex-nowrap" id="mobile-future-container">
     <div class="col-11 col-md-9 col-lg-6 col-xl-5 future-item">
       
       <img class='img-fluid rounded' src="./images/futureArt1.webp" alt="">
@@ -164,7 +164,26 @@
       <p><a href="#">Family Travel and long-term stays trend across the US this Independence day</a> </p>
       <span>June 27, 2022</span>
   </div>
-    
+  <div class="col-11 col-md-9 col-lg-6 col-xl-5 future-item">
+      
+    <img class='img-fluid rounded' src="./images/futureArt3.webp" alt="">
+    <p><a href='#'>New milestone: 2 billion flexible searches</a></p>
+    <span>April 28, 2022</span>
+
+  </div>
+
+  <div class="col-11 col-md-9 col-lg-6 col-xl-5 future-item">
+      
+    <img class='img-fluid rounded' src="./images/futureArt4.webp" alt="">
+    <p><a href='#'>Airbnb's design for employees to live and work anywhere</a></p>
+    <span>April 28, 2022</span>
+  </div>
+  <div class="col-11 col-md-9 col-lg-6 col-xl-5 future-item">
+      
+    <img class='img-fluid rounded' src="./images/futureArt5.webp" alt="">
+    <p><a href='#'>20 destinations supporting remote work around the wrold</a></p>
+    <span>July 6, 2022</span>
+  </div>
     
   </div>
 </div>
@@ -273,7 +292,7 @@
   <div class="container-fluid footer-links">
     <div class="row footer-container">
       <div class="col-12 col-xl-3 footer-col">
-        <h4 class="footer-heading">HELP</h4>
+        <h4 class="footer-heading">SUPPORT</h4>
 		<ul class="list-unstyled footer-list">
         <li class="footer-item"><a href="#">Help Center</a></li>
         <li class="footer-item"><a href="#">AirCover</a></li>
@@ -327,15 +346,15 @@
     </div>
   </div>
   <hr id="legal-seperator">
-  <div class="container-fluid">
-    <div class="d-flex">
+  <div class="container-fluid footer-info">
+    <div class="d-flex" id="footer-mobile">
       <span id="copyright">
         © 2022 Airbnb, Inc.  All rights reservered
       </span>
       <a class='legal-item'href="#">Privacy Policy</a>
       <a class='legal-item'href="#">Terms of Use</a>
       <a class='legal-item'href="#">Sales and Refunds</a>
-      <div class="footer-social d-flex ml-auto">
+      <div class="footer-social d-flex ml-auto" id="social-mobile">
         <i class="fab fa-facebook fa-lg px-2"></i>
         <i class="fab fa-instagram fa-lg px-2"></i>
         <i class="fab fa-twitter fa-lg px-2"></i>
